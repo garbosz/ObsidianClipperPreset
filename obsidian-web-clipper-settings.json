@@ -29,7 +29,7 @@
     ],
     "providers": [
       {
-        "apiKey": "AIzaSyAVQOYvQxkXSkNOE8q_T2aw2HWyoNNv-QI",
+        "apiKey": "no",
         "apiKeyRequired": true,
         "baseUrl": "https://generativelanguage.googleapis.com/v1beta/chat/completions",
         "id": "1748757527308",
