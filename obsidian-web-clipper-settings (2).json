@@ -1,0 +1,366 @@
+{
+  "behavior": "create",
+  "general_settings": {
+    "betaFeatures": false,
+    "legacyMode": false,
+    "openBehavior": "embedded",
+    "saveBehavior": "addToObsidian",
+    "showMoreActionsButton": false,
+    "silentOpen": false
+  },
+  "highlighter_settings": {
+    "alwaysShowHighlights": true,
+    "highlightBehavior": "highlight-inline",
+    "highlighterEnabled": true
+  },
+  "interpreter_settings": {
+    "defaultPromptContext": "",
+    "interpreterAutoRun": false,
+    "interpreterEnabled": false,
+    "interpreterModel": "1748757612870",
+    "models": [],
+    "providers": []
+  },
+  "migrationVersion": 1,
+  "name": "ChatGPT",
+  "noteContentFormat": "{{selectorHtml:article[data-testid*=\"conversation-turn\"]|replace:\"/<svg.*?svg>/g\":\"### ChatGPT\\:\"|join:\"\\n\\n\"|markdown|replace:(\"\\\\###\":\"###\", \"##### You said\": \"### You:\")}}\n",
+  "noteNameFormat": "{{title}}",
+  "path": "Clippings",
+  "properties": [
+    {
+      "name": "title",
+      "type": "text",
+      "value": "{{title}}"
+    },
+    {
+      "name": "source",
+      "type": "text",
+      "value": "{{url}}"
+    },
+    {
+      "name": "author",
+      "type": "multitext",
+      "value": "{{author|split:\\\", \\\"|wikilink|join}}"
+    },
+    {
+      "name": "published",
+      "type": "date",
+      "value": "{{published}}"
+    },
+    {
+      "name": "created",
+      "type": "date",
+      "value": "{{date}}"
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "value": "{{description}}"
+    },
+    {
+      "name": "tags",
+      "type": "multitext",
+      "value": "chatgpt/conversation"
+    }
+  ],
+  "property_types": [
+    {
+      "defaultValue": "{{title}}",
+      "name": "title",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{url}}",
+      "name": "source",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{author|split:\", \"|wikilink|join}}",
+      "name": "author",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{published}}",
+      "name": "published",
+      "type": "date"
+    },
+    {
+      "defaultValue": "{{date}}",
+      "name": "created",
+      "type": "date"
+    },
+    {
+      "defaultValue": "{{description}}",
+      "name": "description",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{url}}",
+      "name": "url",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{schema:@VideoObject:author}}",
+      "name": "channel",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{schema:@VideoObject:thumbnailUrl|first}}",
+      "name": "thumbnailUrl",
+      "type": "text"
+    },
+    {
+      "name": "duration",
+      "type": "number"
+    },
+    {
+      "name": "watched",
+      "type": "checkbox"
+    },
+    {
+      "name": "Related Notes",
+      "type": "text"
+    },
+    {
+      "name": "reviewed",
+      "type": "date"
+    },
+    {
+      "defaultValue": "[[Videos]]",
+      "name": "related",
+      "type": "multitext"
+    }
+  ],
+  "reader_settings": {
+    "appearance": "auto",
+    "autoScroll": true,
+    "blendImages": false,
+    "colorLinks": true,
+    "customCss": "",
+    "darkTheme": "same",
+    "defaultFont": "Google Sans Flex",
+    "followLinks": true,
+    "fontSize": 14,
+    "fonts": [
+      "Google Sans Flex"
+    ],
+    "highlightActiveLine": true,
+    "lightTheme": "flexoki",
+    "lineHeight": 1.6,
+    "maxWidth": 38,
+    "pinPlayer": true
+  },
+  "schemaVersion": "0.1.0",
+  "stats": {
+    "addToObsidian": 19,
+    "copyToClipboard": 0,
+    "saveFile": 0,
+    "share": 0
+  },
+  "template_1747962011314uqdusr4ot": {
+    "id": "1747962011314uqdusr4ot",
+    "name": "Default",
+    "behavior": "create",
+    "noteNameFormat": "{{title}}",
+    "path": "30-Imports",
+    "noteContentFormat": "> [!NOTE] Imported with Clipper\n\n# [[{{title}}]]\n{{content}}\n\n## References\n- \n\n> [!quote] Original Thought\n> {{title}}\n",
+    "context": "",
+    "properties": [
+      {
+        "id": "1747962011314zs9py5slz",
+        "name": "title",
+        "value": "{{title}}",
+        "type": "text"
+      },
+      {
+        "id": "1747962011314pfhsbdwt2",
+        "name": "source",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "17479620113140ndi893u3",
+        "name": "author",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1747962011314urjcsw0om",
+        "name": "published",
+        "value": "{{published}}",
+        "type": "date"
+      },
+      {
+        "id": "1747962011314dmucttoq4",
+        "name": "created",
+        "value": "{{date}}",
+        "type": "date"
+      },
+      {
+        "id": "1747962011314thwyx091v",
+        "name": "description",
+        "value": "{{description}}",
+        "type": "text"
+      },
+      {
+        "id": "17479620113141a1du84vz",
+        "name": "tags",
+        "value": "clippings/new",
+        "type": "multitext"
+      },
+      {
+        "id": "17484812404694pdq75dc9",
+        "name": "Related Notes",
+        "value": "",
+        "type": "text"
+      }
+    ],
+    "triggers": []
+  },
+  "template_1775576166937d5kovs8": {
+    "schemaVersion": "0.1.0",
+    "name": "YouTube",
+    "behavior": "create",
+    "noteContentFormat": "> [!info] Captured with Clipper\n\n# {{schema:@VideoObject:name}}\n## My Notes\n\n## About\n![{{title}}]({{schema:@VideoObject:embedUrl|replace:\"embed/\":\"watch?v=\"}})\n\n## Description\n{{schema:@VideoObject:description}}\n\n## Transcript\n{{transcript}}",
+    "properties": [
+      {
+        "id": "1775576166939dezhixs",
+        "name": "reviewed",
+        "value": "",
+        "type": "datetime"
+      },
+      {
+        "id": "1775576166939argz6g2",
+        "name": "url",
+        "value": "{{schema:@VideoObject:embedUrl|replace:\\\"embed/\\\":\\\"watch?v=\\\"}}",
+        "type": "text"
+      },
+      {
+        "id": "1775576166939vg2iyvb",
+        "name": "title",
+        "value": "{{schema:@VideoObject:name}}",
+        "type": "text"
+      },
+      {
+        "id": "1775576166939urhui2k",
+        "name": "channel",
+        "value": "[[{{schema:@VideoObject:author}}]]",
+        "type": "text"
+      },
+      {
+        "id": "17755761669399hpfbq7",
+        "name": "related",
+        "value": "[[Videos]]",
+        "type": "multitext"
+      },
+      {
+        "id": "1775576166939t9vnbdf",
+        "name": "published",
+        "value": "{{schema:@VideoObject:uploadDate|date:\\\"YYYY-MM-DD\\\"}}",
+        "type": "date"
+      },
+      {
+        "id": "17755761669396ooc3m9",
+        "name": "thumbnailUrl",
+        "value": "{{schema:@VideoObject:thumbnailUrl|first}}",
+        "type": "text"
+      },
+      {
+        "id": "1775576166939taobc36",
+        "name": "duration",
+        "value": "{{schema:@VideoObject:duration|replace:\\\"PT\\\":\\\"\\\":\\\"S\\\",\\\"\\\"|duration}}",
+        "type": "number"
+      },
+      {
+        "id": "17755761669398hyxjqw",
+        "name": "watched",
+        "value": "",
+        "type": "checkbox"
+      },
+      {
+        "id": "1775576197400ecnhefpcc",
+        "name": "tags",
+        "value": "clippings/videos",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://www.youtube.com/watch"
+    ],
+    "noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} VIDEO {{schema:@VideoObject:author}} - {{schema:@VideoObject:name|safe_name|trim}}",
+    "path": "30-Imports/Videos",
+    "id": "1775576166937d5kovs8",
+    "context": ""
+  },
+  "template_1775576461167rlp0uqu": {
+    "schemaVersion": "0.1.0",
+    "name": "Github Releases",
+    "behavior": "create",
+    "noteContentFormat": "> [!info] Captured with Clipper\n\n# {{title}}\n\n{{selectorHtml:.markdown-body|markdown}}",
+    "properties": [
+      {
+        "id": "1775576461168x6bbma9",
+        "name": "reviewed",
+        "value": "",
+        "type": "datetime"
+      },
+      {
+        "id": "17755764611684ec4fez",
+        "name": "url",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
+        "id": "1775576461168vofsvm0",
+        "name": "title",
+        "value": "{{title}}",
+        "type": "text"
+      },
+      {
+        "id": "1775576461168uh2n1zz",
+        "name": "author",
+        "value": "{{author|split:\\\",\\\"|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1775576461168sehucfl",
+        "name": "published",
+        "value": "{{selector:relative-time?datetime|first|date:\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "date"
+      },
+      {
+        "id": "1775576461168spt09gl",
+        "name": "description",
+        "value": "{{description}}",
+        "type": "text"
+      },
+      {
+        "id": "1775576482146i6gcc1pob",
+        "name": "tags",
+        "value": "clippings/github",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "/^https.+github.+releases.+$/"
+    ],
+    "noteNameFormat": "{{selector:relative-time?datetime|first|date:\"YYYY-MM-DD\"}} WEB {{title|replace:\"/\":\" - \"|safe_name}}",
+    "path": "30-Imports/Github",
+    "id": "1775576461167rlp0uqu",
+    "context": ""
+  },
+  "template_list": [
+    "1747962011314uqdusr4ot",
+    "1775576166937d5kovs8",
+    "1775576461167rlp0uqu"
+  ],
+  "triggers": [
+    "https://chatgpt.com/share",
+    "https://chatgpt.com/c"
+  ],
+  "vaults": []
+}
